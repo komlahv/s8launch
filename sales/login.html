@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Login</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+    .form-signin {
+       max-width: 330px;
+       margin: 0 auto;
+       padding-top: 150px;
+     }
+
+    </style>
+
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form class="form-signin" action="Scripts/login.php" method="post">
+        <h2 class="form-signin-heading" align="center" >Please Sign In</h2>
+        <label for="inputEmail" class="sr-only">Username</label>
+        <input type="text" id="inputEmail" class="form-control" placeholder="Username" required  name="username">
+        <br>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required name="password">
+        <br>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign In</button>
+
+      </form>
+
+    </div>
+
+
+
+  </body>
+</html>

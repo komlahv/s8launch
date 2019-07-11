@@ -1,0 +1,112 @@
+.envalab-style-switch {
+    opacity: 0.95;
+    position: fixed;
+    z-index: 9999;
+    top: 160px;
+    left: -260px;
+    background: #FFFFFF;
+}
+
+.envalab-style-switch:hover {
+    opacity: 1 !important;
+}
+
+.envalab-style-switch .switched-options {
+    position: relative;
+    width: 260px;
+    text-align: left;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+
+.envalab-style-switch .config-title {
+    background: ;
+  text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    border-bottom: 1px dotted #CCCCCC;
+    border-top: 1px dotted #CCCCCC;
+    margin-bottom: 5px;
+}
+
+.envalab-style-switch ul {
+    margin-bottom: 25px;
+}
+
+.envalab-style-switch ul .active a {
+    color: #005885;
+    font-weight: 700;
+}
+
+.envalab-style-switch ul .p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #CCC;
+    margin-top: 10px;
+}
+
+.envalab-style-switch ul li a {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #808080;
+}
+
+.envalab-style-switch ul li a:hover {
+    color: #008ed6;
+}
+
+.envalab-style-switch ul.styles {
+    margin-top: 15px;
+}
+
+.envalab-style-switch ul.styles li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.envalab-style-switch ul.styles li .default,
+.envalab-style-switch ul.styles li .red,
+.envalab-style-switch ul.styles li .blue,
+.envalab-style-switch ul.styles li .green {
+    width: 35px;
+    height: 35px;
+}
+
+.envalab-style-switch ul.styles li .default {
+    background: #60C926;
+}
+
+.envalab-style-switch ul.styles li .red {
+    background: #F1404A;
+}
+
+.envalab-style-switch ul.styles li .blue {
+    background: #5D8DD5;
+}
+
+.envalab-style-switch ul.styles li .green {
+    background: #01B288;
+}
+
+.envalab-style-switch .switch-button {
+    opacity: 1 !important;
+    background: #FFF;
+    padding: 10px;
+    font-size: 24px;
+    color: #272727;
+    position: absolute;
+    overflow: hidden;
+    right: -46px;
+    top: -10;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 2px 1px 4px gray;
+}
+
+.envalab-style-switch .switch-button:hover {
+    color: #008ed6;
+    cursor: pointer;
+}
